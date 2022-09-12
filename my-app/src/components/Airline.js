@@ -29,4 +29,8 @@ function Airline({airline}) {
 </div>
 )
   }
+  fetch("https://phase-3-airline-reviewer.herokuapp.com/airlines")
+  .then((r) => r.json())
+  .then((data) => console.log(data));
+  
   export default Airline

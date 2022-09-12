@@ -1,4 +1,4 @@
-* {
+ * {
     box-sizing: border-box;
   }
   
@@ -12,7 +12,7 @@
   }
   
   .nav {
-    background-color: #333;
+    background-color: navy;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -43,9 +43,10 @@
   }
   
   .nav li.active {
-    background-color: #555;
+    background-color: mediumaquamarine;
   }
   
   .nav li:hover {
-    background-color: #777;
-  }
+    background-color: lightblue;
+  } 
+   
