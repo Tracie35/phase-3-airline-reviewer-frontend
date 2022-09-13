@@ -12,6 +12,7 @@ import image5 from "./images/JetBlue.jpg"
 import image6 from "./images/Southwest-Airlines.jpg"
 import image7 from "./images/United-Airlines.jpg"
 import Hero from "./components/Hero"
+import Slider from "./components/slider";
 function App() {
   return (
     <>
@@ -24,7 +25,44 @@ function App() {
           <Route path="/airline" element={<Airline />} />
           <Route path="/reviews" element={<Reviews />} />
         </Routes>
-      </div>
+        <Slider
+        imageSrc={image2}
+        title={"Be an explorer."}
+        subtitle={
+          "Our platform offers a wide variety of quality airlines!"
+        }
+      />
+      <Slider
+        imageSrc={image3}
+        title={"Memories for a lifetime."}
+        subtitle={"Your dream vacation is only a few clicks away."}
+        flipped={true}
+      />
+       <Slider
+        imageSrc={image4}
+        title={"Memories for a lifetime."}
+        subtitle={"Your dream vacation is only a few clicks away."}
+        flipped={true}
+      />
+       <Slider
+        imageSrc={image5}
+        title={"Memories for a lifetime."}
+        subtitle={"Your dream vacation is only a few clicks away."}
+        flipped={true}
+      />
+      <Slider
+        imageSrc={image6}
+        title={"Memories for a lifetime."}
+        subtitle={"Your dream vacation is only a few clicks away."}
+        flipped={true}
+      />
+      <Slider
+        imageSrc={image7}
+        title={"Memories for a lifetime."}
+        subtitle={"Your dream vacation is only a few clicks away."}
+        flipped={true}
+      />
+    </div>
     </>
   )
 }
